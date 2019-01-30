@@ -51,6 +51,12 @@ public class amiciFinderTest {
                                 finalData.put(keys++, new Object[]{currentRow.getCell(0).toString(), cellTextArray[i - 1], cellTextArray[i]});
                                 System.out.println(currentRow.getCell(0).toString() + " " + cellTextArray[i - 1] + " " + cellTextArray[i]);
                             }
+
+                            if (cellTextArray[i].contains("Petition GRANTED") || cellTextArray[i].contains("Petition DENIED")) {
+
+                                break;
+
+                            }
                         }
                     }
                 }
