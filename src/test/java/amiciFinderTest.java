@@ -8,8 +8,8 @@ import java.util.*;
 
 public class amiciFinderTest {
 
-    private static final String INPUT_WKBK_PATH = "/Users/joeymiller/Desktop/DreamTeam2.xlsx";
-    private static final String OUTPUT_WKBK_PATH = "/Users/joeymiller/Desktop/Output.xlsx";
+    private static final String INPUT_WKBK_PATH = "C:\\Users\\mattm\\OneDrive\\Documents\\petitions.xlsx";
+    private static final String OUTPUT_WKBK_PATH = "C:\\Users\\mattm\\OneDrive\\Desktop\\Output.xlsx";
     private static final String TILDA_SPLIT = "~~~Date~~~  ~~~~~~~Proceedings and Orders~~~~~~~~~~~~~~~~~~~~~;";
 
     private static final String REGEX_PARSER = "(?<=\\d{4})\\s{2}(?=[A-Z])|(?<=\\d|\\)|\\.);|;(?=[A-Z])|(?<=\\d)\\.(?=[A-Z])";
